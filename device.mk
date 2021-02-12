@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     camera.msm8953 \
+    libcamshim \
     libmm-qcamera \
     libstdc++.vendor
 

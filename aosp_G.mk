@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The ArrowOS Project
+# Copyright (C) 2021 The PixelOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,11 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from G device
 $(call inherit-product, device/10or/G/device.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
-
-# ArrowOS
-DEVICE_MAINTAINER := kardebayan
+# Inherit some common PixelOS stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -25,7 +22,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BRAND := 10or
 PRODUCT_DEVICE := G
 PRODUCT_MANUFACTURER := 10or
-PRODUCT_NAME := arrow_G
+PRODUCT_NAME := aosp_G
 PRODUCT_MODEL := 10or G
 
 PRODUCT_GMS_CLIENTID_BASE := android-huaqin

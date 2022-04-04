@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_G.mk
+    $(LOCAL_DIR)/aosp_G.mk

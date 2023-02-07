@@ -55,6 +55,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib/libmmcamera2_stats_modules.so)
+            "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
+            "${PATCHELF}" --remove-needed "libgui.so" "${2}"
+            ;;
         vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
             "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
             ;;

@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # Display
 PRODUCT_PACKAGES += \

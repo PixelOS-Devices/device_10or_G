@@ -297,7 +297,7 @@ vendor/lib/libmmcamera_eztune_module.so|9b8dde11bc7b4ffee9c357d31f7262417dd7c993
 vendor/lib/libmmcamera_facedetection_lib.so|aeb84cee587fc65224afd36dc93de7ecf5dbce6a
 vendor/lib/libmmcamera_faceproc.so|2b580dc5464b390586246ad3cc23efdf903a2833
 vendor/lib/libmmcamera_faceproc2.so|27f802a68cc8aab70ba0637fd60e5d5c52f606a0
-vendor/lib/libmmcamera_hdr_gb_lib.so|6a38342062c1b4c8730c3bdb4c57d201987150cb
+vendor/lib/libmmcamera_hdr_gb_lib.so|86caedbd4fdcc4ee626ad68fb03c15c9d938d9b3
 vendor/lib/libmmcamera_imglib.so|e45a3918afbdb81e2ef1eef7b0f139d419d86fb7
 vendor/lib/libmmcamera_isp_abf40.so|035f73911fc7fd5519d7694a21cc1b75d2a427c1
 vendor/lib/libmmcamera_isp_bcc40.so|0f93013a0340fe142dcc8de99cadab866913b421
@@ -473,7 +473,7 @@ vendor/lib64/libwvhidl.so|61b056c74731122836e57f1110f2174fd05cbfdb
 # Fingerprint - from daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
 vendor/lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/gf_fingerprint.goodix.default.so|b09aba758c469f3e3ff04197a723a15fbdfafea1
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|feee131f714ed9a7dd93e7ba9bfc768cbf651426
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|a8da68e62a722ddd2bd9d5fa65ba887e3128f385
 
 # Fingerprint
 lib64/libgf_algo.so:vendor/lib64/libgf_algo.so

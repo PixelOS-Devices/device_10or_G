@@ -55,11 +55,14 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib64/libgf_algo.so|vendor/lib64/libgf_ca.so|vendor/lib64/libgf_hal.so|vendor/lib/libubifocus.so|vendor/lib/libHAFIAFalSDE1.so|vendor/lib/libtrueportrait.so|vendor/lib/libmmcamera_hdr_gb_lib.so|vendor/lib/libAltek_AF.so|vendor/lib/libts_detected_face_hal.so|vendor/lib/libseemore.so|vendor/lib/libIQM_OTP_Correction.so|vendor/lib/libfcell.so|vendor/lib/libts_face_beautify_hal.so|vendor/lib/libalCMotion.so|vendor/lib/libchromaflash.so|vendor/lib/liboptizoom.so|vendor/lib/libIAFalSDE1.so|vendor/lib/libIQ_Match_Lib.so)
+        vendor/lib/libubifocus.so|vendor/lib/libHAFIAFalSDE1.so|vendor/lib/libtrueportrait.so|vendor/lib/libmmcamera_hdr_gb_lib.so|vendor/lib/libAltek_AF.so|vendor/lib/libts_detected_face_hal.so|vendor/lib/libseemore.so|vendor/lib/libIQM_OTP_Correction.so|vendor/lib/libfcell.so|vendor/lib/libts_face_beautify_hal.so|vendor/lib/libalCMotion.so|vendor/lib/libchromaflash.so|vendor/lib/liboptizoom.so|vendor/lib/libIAFalSDE1.so|vendor/lib/libIQ_Match_Lib.so)
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
         vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
             "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
+            ;;
+        vendor/lib64/libgf_algo.so|vendor/lib64/libgf_ca.so|vendor/lib64/libgf_hal.so)
+            "${PATCHELF_0_8}" --remove-needed "libstdc++.so" "${2}"
             ;;
     esac
 }

@@ -36,18 +36,18 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|f2b57130987c65a1dc596bf83a2b09e086df9286
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|74675e4f720d75db031a0db4ca21463ebd331f34
 
-# Audio - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
-vendor/lib/soundfx/libqcbassboost.so|7d11a8f3e4e5a4011f3900cf2077c87e57aac229
-vendor/lib/soundfx/libqcreverb.so|7dccd8c56bae92d4dc291e8c7c814448cb06fdc1
-vendor/lib/soundfx/libqcvirt.so|7d1f23427602be657b2ae3f8bbacc0f2c7073903
-vendor/lib/libacdb-fts.so|679f4d3b189e56b01e0ec5ae2955d19f88b37655
-vendor/lib/libacdbloader.so|f0d844e545e3904b5cf527b460078c198f9d53d9
-vendor/lib/libacdbrtac.so|2fcc92c30d9f3335533453d466f7aee34db5b32e
-vendor/lib/libadiertac.so|1f2d53c0727abd4ccda9da787e92a396993ccd1f
-vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
-vendor/lib/libaudcal.so|97776b794a73dc9e28a15e81dee91054b489bd23
-vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
-vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
+# Audio - from FP3-user 13 6.A.020.0-gms-88126537 release-keys
+vendor/lib/soundfx/libqcbassboost.so|fbeb7fc080f5fce028eb34e021367037483d1819
+vendor/lib/soundfx/libqcreverb.so|92a1d4491fb3213e96db1201a9846b40968059cf
+vendor/lib/soundfx/libqcvirt.so|8730643ba19de92fc1d4578a532cae8deb73059b
+vendor/lib/libacdb-fts.so|458980ecf3ba88c4e6d4862af727ac8b52a8c943
+vendor/lib/libacdbloader.so|8e5758fbaa7a1c717d7ff15851972951697a0ee2
+vendor/lib/libacdbrtac.so|2bfe2d2c49833b37dee10d2776d97bb368d5a1a5
+vendor/lib/libadiertac.so|53b70da188c6aee0333a1f4d368f7ac8ffba3fae
+vendor/lib/libadm.so|0c12ba8a37d5c01f49d58c36b9fb84354ae568a9
+vendor/lib/libaudcal.so|ea9f62700c66d8dbaf4575e567fa67046ee66a49
+vendor/lib/libaudioalsa.so|50d2e0a9599e3a6c44345956d672cc5f222e3653
+vendor/lib/libdrc.so|7dbd6cef13d7e8ad18b1a49aa92a7d83da24c96a
 
 # Audio (ACDB)
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
